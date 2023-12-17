@@ -1,0 +1,983 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="left">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                </div>
+                <div class="fav-text">
+                    <span>Favourites</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #e0d3d3;"></i>
+                    <i class="microphone fa-solid fa-microphone"></i>
+                </div>
+                <div class="notification">
+                    <i class="fa-regular fa-bell text-white"></i>
+                    <span>0</span>
+                </div>
+                <div class="user-nav">
+                    <img src="assets/images/logo.png" alt="logo">
+                </div>
+            </div>
+        </header>
+
+        <div class="music-container">
+            <div class="flex">
+                <div class="right-flex">
+                    <!-- Carousel Start -->
+                    <section class="carousel comman-container">
+                        <div class="carousel-image-grid">
+                            <div class="img">
+                                <img src="assets/images/img/carousel.jpg" alt="">
+                            </div>
+                            <div class="img">
+                                <img src="assets/images/img/carousel2.jpg" alt="">
+                            </div>
+                            <div class="img">
+                                <img src="assets/images/img/carousel.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+
+                    <!-- Latest Release Start -->
+                    <section class="comman">
+                        <div class="comman-container">
+                            <div class="title text-white">
+                                <h4>Latest Release</h4>
+                            </div>
+                            <div class="rw">
+                                <div class="col-6 mb-4">
+                                    <div class="r-box">
+                                        <div class="d-flex r-box-flex">
+                                            <div class="l-img">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="play-icons openPopupIcon" id="openPopupIcon"><i
+                                                        class="fa-solid fa-play"></i></span>
+                                            </div>
+                                            <div class="r-text-content">
+                                                <div class="title">Onius</div>
+                                                <div class="date">AUG 02 2020</div>
+                                            </div>
+                                        </div>
+                                        <div class="r-left-b">
+                                            <span class="dots open-popup-icon"><i
+                                                    class="fa-solid fa-ellipsis-vertical"></i></span>
+                                            <div class="d-none open-menu position-relative">
+                                                <ul>
+                                                    <li><span class="nav-menu-icon icon"><i
+                                                                class="fa-solid fa-play"></i></span> Play Now</li>
+                                                    <li><span class="nav-menu-icon icon"><i
+                                                                class="fa-solid fa-plus"></i></span> Add to Queue</li>
+                                                    <li><span class="nav-menu-icon icon"><i
+                                                                class="fa-solid fa-circle-info"></i></span> Add to
+                                                        Favourites</li>
+                                                    <li><span class="nav-menu-icon icon"><i
+                                                                class="fa-solid fa-circle-info"></i></span> Get Info
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <span class="song-time">3:20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <div class="r-box">
+                                        <div class="d-flex r-box-flex">
+                                            <div class="l-img">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="play-icons openPopupIcon" id="openPopupIcon"><i
+                                                        class="fa-solid fa-play"></i></span>
+                                            </div>
+                                            <div class="r-text-content">
+                                                <div class="title">Onius</div>
+                                                <div class="date">AUG 02 2020</div>
+                                            </div>
+                                        </div>
+                                        <div class="r-left-b">
+                                            <span class="dots open-popup-icon"><i
+                                                    class="fa-solid fa-ellipsis-vertical"></i></span>
+                                            <span class="song-time">3:20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="r-box">
+                                        <div class="d-flex r-box-flex">
+                                            <div class="l-img">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="play-icons" id="openPopupIcon"><i
+                                                        class="fa-solid fa-play"></i></span>
+                                            </div>
+                                            <div class="r-text-content">
+                                                <div class="title">Onius</div>
+                                                <div class="date">AUG 02 2020</div>
+                                            </div>
+                                        </div>
+                                        <div class="r-left-b">
+                                            <span class="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                            <span class="song-time">3:20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="r-box">
+                                        <div class="d-flex r-box-flex">
+                                            <div class="l-img">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="play-icons" id="openPopupIcon"><i
+                                                        class="fa-solid fa-play"></i></span>
+                                            </div>
+                                            <div class="r-text-content">
+                                                <div class="title">Onius</div>
+                                                <div class="date">AUG 02 2020</div>
+                                            </div>
+                                        </div>
+                                        <div class="r-left-b">
+                                            <span class="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                            <span class="song-time">3:20</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+
+                    <!-- Popular Start -->
+                    <section class="mt-40">
+                        <div class="comman-container mt-3">
+                            <div class="title text-white">
+                                <h4>Popular Artists</h4>
+                            </div>
+                            <div class="rw">
+                                <div class="col-2">
+                                    <div class="p-box text-center" onclick="openDetail()">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <span class="play-icons" id="openPopupIcon"><i
+                                                class="fa-solid fa-play"></i></span>
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="p-box text-center" onclick="openDetail()">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <span class="play-icons" id="openPopupIcon"><i
+                                                class="fa-solid fa-play"></i></span>
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="p-box text-center" onclick="openDetail()">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <span class="play-icons" id="openPopupIcon"><i
+                                                class="fa-solid fa-play"></i></span>
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="p-box text-center" onclick="openDetail()">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <span class="play-icons" id="openPopupIcon"><i
+                                                class="fa-solid fa-play"></i></span>
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="p-box text-center">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="p-box text-center">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+                    <!-- Start -->
+                    <section class="mt-40">
+                        <div class="comman-container">
+                            <div class="station-music">
+                                <div class="break-rw">
+                                    <div class="break-col-2">
+                                        <div class="stations">
+                                            <img src="assets/images/img/fotor-ai-20231009112248.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="break-rw-common">
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                        <div class="break-col-2">
+                                            <div class="music-lay">
+                                                <img src="assets/images/img/carousel.jpg" alt="">
+                                                <span class="s-text">Love</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+                    <!-- start -->
+                    <section class="mt-40">
+                        <div class="comman-container">
+                            <div class="party-row">
+                                <div class="party-grid-item">
+                                    <img src="assets/images/img/carousel.jpg" alt="" width="100%">
+                                    <span class="party-text">Party</span>
+                                </div>
+                                <div class="party-grid-item">
+                                    <img src="assets/images/img/carousel.jpg" alt="" width="100%">
+                                    <span class="party-text">Party</span>
+                                </div>
+                                <div class="party-grid-item">
+                                    <img src="assets/images/img/carousel.jpg" alt="" width="100%">
+                                    <span class="party-text">Party</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+                    <!-- Latest English Song -->
+                    <section class="mt-40">
+                        <div class="comman-container mt-3">
+                            <div class="title text-white">
+                                <h4>Latest English</h4>
+                            </div>
+                            <div class="rw">
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+                    <!-- Latest English Song -->
+                    <section class="mt-40">
+                        <div class="comman-container mt-3">
+                            <div class="title text-white">
+                                <h4>Latest Hindi</h4>
+                            </div>
+                            <div class="rw">
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="l-box">
+                                        <img src="assets/images/img/carousel2.jpg" alt="">
+                                        <div class="p-text">Ed Sheeran</div>
+                                        <div class="date">AUG 02 2020</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End -->
+                </div>
+
+                <!-- Left Section -->
+                <div class="left-flex">
+                    <div class="right-queue-container">
+                        <div class="q-header">
+                            <h2>Queue</h2>
+                            <div class="queue-nav position-relative">
+                                <div class="q-flex" id="right-q-popup">
+                                    <span>Queue</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <div class="d-none position-relative open-menu" id="open-menu">
+                                        <ul>
+                                            <li> Play List</li>
+                                            <li>Favourites Songs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="queue-grid">
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-none"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Single Page -->
+        <div class="single-container">
+            <div class="detail-flex">
+                <div class="left-detail">
+                    <div class="left-detail-body">
+                        <div class="left-hero-img">
+                            <img src="assets/images/img/fotor-ai-20231009112248.jpg" alt="">
+                        </div>
+                        <div class="left-detail-content">
+                            <div class="detail-info">
+                                <h3>ColdPlay</h3>
+                                <div class="follower-wrap">851 Followers</div>
+                                <span>British Band</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div class="follow-wrapper">
+                                <div class="buttons">
+                                    <a href="#" class="play-btn">Play All</a>
+                                    <a href="">Follow</a>
+                                </div>
+                                <div class="album-info">
+                                    <span>247 Tracks | 128 Albums</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start -->
+                    <div class="music-grid-sec">
+                        <div class="grid-wrapper">
+                            <div class="grid-item">
+                                <div class="left-grid">
+                                    <div class="left-grid-flex d-flex">
+                                        <div class="count">01</div>
+                                        <div class="grid-images">
+                                            <img src="assets/images/img/carousel.jpg" alt="" width="45" height="45">
+                                        </div>
+                                        <div class="grid-text">
+                                            <div>Mirage</div>
+                                            <span>Else</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center-grid">
+                                    <div class="time">4.44</div>
+                                </div>
+                                <div class="right-grid">
+                                    <div class="right-song-like">
+                                        <span> <i class="fa-regular fa-heart"></i></span>
+                                        <span> <i class="fa-solid fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="left-grid">
+                                    <div class="left-grid-flex d-flex">
+                                        <div class="count">01</div>
+                                        <div class="grid-images">
+                                            <img src="assets/images/img/carousel.jpg" alt="" width="45" height="45">
+                                        </div>
+                                        <div class="grid-text">
+                                            <div>Mirage</div>
+                                            <span>Else</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center-grid">
+
+                                </div>
+                                <div class="right-grid">
+                                    <div class="right-song-like">
+                                        <span> <i class="fa-regular fa-heart"></i></span>
+                                        <span> <i class="fa-solid fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="left-grid">
+                                    <div class="left-grid-flex d-flex">
+                                        <div class="count">01</div>
+                                        <div class="grid-images">
+                                            <img src="assets/images/img/carousel.jpg" alt="" width="45" height="45">
+                                        </div>
+                                        <div class="grid-text">
+                                            <div>Mirage</div>
+                                            <span>Else</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center-grid">
+
+                                </div>
+                                <div class="right-grid">
+                                    <div class="right-song-like">
+                                        <span> <i class="fa-regular fa-heart"></i></span>
+                                        <span> <i class="fa-solid fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="left-grid">
+                                    <div class="left-grid-flex d-flex">
+                                        <div class="count">01</div>
+                                        <div class="grid-images">
+                                            <img src="assets/images/img/carousel.jpg" alt="" width="45" height="45">
+                                        </div>
+                                        <div class="grid-text">
+                                            <div>Mirage</div>
+                                            <span>Else</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center-grid">
+
+                                </div>
+                                <div class="right-grid">
+                                    <div class="right-song-like">
+                                        <span> <i class="fa-regular fa-heart"></i></span>
+                                        <span> <i class="fa-solid fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End -->
+                </div>
+                <!-- Right Start -->
+                <div class="right-detail">
+                    <div class="">
+                        <div class="right-queue-container">
+                            <div class="q-header">
+                                <h2>Similar Artists</h2>
+                                <a href="">View All</a>
+                            </div>
+                            <div class="queue-grid">
+                                <div class="q-box" style="align-items: start;">
+                                    <div class="q-left">
+                                         <div class="new-img-css image">
+                                            <img src="assets/images/img/carousel.jpg" alt="">
+                                         </div>
+                                        <div class="text">
+                                            <div>Imagen Dragon</div>
+                                            <span style="color: #837a7a;">Pop Band</span>
+                                        </div>
+                                    </div>
+                                    <div class="menu-dots">
+                                        <span class="dots-icon"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                        <span class="song-time">3:20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="right-queue-container">
+                            <div class="q-header">
+                                <h2>Recently Played</h2>
+                                <a href="">View All</a>
+                            </div>
+                        </div>
+                        <div class="queue-grid">
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-none"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+    
+                            <div class="q-box">
+                                <div class="q-left">
+                                    <div>01</div>
+                                    <div class="image">
+                                        <img src="assets/images/img/carousel.jpg" alt="">
+                                        <span class="d-block"><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <div>Mirage</div>
+                                        <span>Else</span>
+                                    </div>
+                                </div>
+                                <div class="like">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End -->
+        </div>
+    </div>
+    </div>
+
+    <!-- Music Popup -->
+    <div class="popup-container d-none">
+        <div class="main-contain">
+            <div class="popup-flex">
+                <div class="left-break w-25">
+                    <div class="popup-left-flex d-flex">
+                        <div class="popup-left-img">
+                            <img src="assets/images/img/music.jpeg" alt="">
+                        </div>
+                        <div class="popup-text d-flex" style="gap:10px">
+                            <div>
+                                <div class="pop-name">Image by Arif Khan</div>
+                                <div class="p-name">Arif Khan</div>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-break w-50">
+                    <div class="music-center-body">
+                        <div class="pop-music-top">
+                            <div class="icon-color"><i class="fa-solid fa-play"></i></div>
+                            <div class="icon-color"><i class="fa-solid fa-backward"></i></div>
+                            <div class="icon-color"><i class="fa-solid fa-pause"></i></div>
+                            <div class="icon-color"><i class="fa-solid fa-forward"></i></div>
+                            <div class="icon-color"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="pop-music-bottom">
+                            <div class="pop-b-flex">
+                                <span class="f-11">1.23</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:30%" style="width: 20%;height:10px;"></div>
+                                </div>
+                                <span class="f-11">4.54</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-break w-25">
+                    <div class="pop-bottom-flex text-center">
+                        <div class="icon-color"><i class="fa-solid fa-volume-low"></i></div>
+                        <div class="icon-color"><i class="fa-solid fa-volume-low"></i></div>
+                        <div class="progress-bottom">
+                            <div class="progress-bottom-bar progress-bar" style="width:50%"
+                                style="width: 20%;height:10px;"></div>
+                        </div>
+                        <div class="icon-color"><i class="fa-solid fa-expand"></i></div>
+                        <div class="icon-color"><i class="fa-solid fa-expand"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
